@@ -1,0 +1,62 @@
+[
+  {
+    "file": "gracekeychain-unsupported.stl",
+    "sha256": "f7661bbe54955ff233ec1893ad1dfa730cf0bcd734160db6ffd935b1620b9871",
+    "vertices": 105465,
+    "faces": 214236,
+    "watertight": false,
+    "components": 2,
+    "boundary_unique_edges": 0,
+    "nonmanifold_unique_edges": 4,
+    "euler_number": -1649,
+    "bounds_min": [
+      -23.274568557739258,
+      -30.625551223754883,
+      0.0
+    ],
+    "bounds_max": [
+      25.63462257385254,
+      34.01288604736328,
+      37.6402587890625
+    ],
+    "extents_xyz": [
+      48.9091911315918,
+      64.63843727111816,
+      37.6402587890625
+    ],
+    "surface_area": 12368.231626946592,
+    "signed_volume": 4970.370644614764,
+    "winding_consistent": true,
+    "units": "same units as STL source (typically mm)"
+  },
+  {
+    "file": "gracekeychain-repaired.stl",
+    "sha256": "77fb74046fa78bc933b9e03b65b4319911bd5e732ce737f32893e1926e7321d4",
+    "vertices": 275272,
+    "faces": 551096,
+    "watertight": true,
+    "components": 1,
+    "boundary_unique_edges": 0,
+    "nonmanifold_unique_edges": 0,
+    "euler_number": -276,
+    "bounds_min": [
+      -23.125,
+      -30.625,
+      0.125
+    ],
+    "bounds_max": [
+      25.625,
+      33.875,
+      37.625
+    ],
+    "extents_xyz": [
+      48.75,
+      64.5,
+      37.5
+    ],
+    "surface_area": 12674.915251655266,
+    "signed_volume": 7315.119140625,
+    "winding_consistent": true,
+    "units": "same units as STL source (typically mm)"
+  }
+]
