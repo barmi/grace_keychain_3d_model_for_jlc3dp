@@ -1,0 +1,163 @@
+{
+  "reference_repaired_stl": "/mnt/data/stl_repair_repro2/gracekeychain-repaired-reference.stl",
+  "generated_stl": "/mnt/data/stl_repair_repro2/gracekeychain-repaired-regenerated.stl",
+  "reference_sha256": "985d624d1b75ed245bd8d935c70e43873572debc154f05d402c807ce61b735b4",
+  "generated_sha256": "985d624d1b75ed245bd8d935c70e43873572debc154f05d402c807ce61b735b4",
+  "exact_hash_match": true,
+  "reference_vs_generated": {
+    "samples_per_mesh": 5000,
+    "a_to_b_mean": 0.0,
+    "a_to_b_max": 0.0,
+    "b_to_a_mean": 0.0,
+    "b_to_a_max": 0.0
+  },
+  "regeneration_summary": {
+    "input_path": "/mnt/data/gracekeychain-unsupported.stl",
+    "output_path": "/mnt/data/stl_repair_repro2/gracekeychain-repaired-regenerated.stl",
+    "sha256_input": "f7661bbe54955ff233ec1893ad1dfa730cf0bcd734160db6ffd935b1620b9871",
+    "sha256_output": "985d624d1b75ed245bd8d935c70e43873572debc154f05d402c807ce61b735b4",
+    "parameters": {
+      "pitch": 0.25,
+      "min_component_faces": 100
+    },
+    "original": {
+      "vertices": 105465,
+      "faces": 214236,
+      "watertight": false,
+      "winding_consistent": true,
+      "euler_number": -1649,
+      "components": 2,
+      "bounds_min": [
+        -23.274568557739258,
+        -30.625551223754883,
+        0.0
+      ],
+      "bounds_max": [
+        25.63462257385254,
+        34.01288604736328,
+        37.6402587890625
+      ],
+      "extents": [
+        48.9091911315918,
+        64.63843727111816,
+        37.6402587890625
+      ]
+    },
+    "components_detected": [
+      {
+        "index": 0,
+        "vertices": 105465,
+        "faces": 214234,
+        "watertight": false,
+        "bounds_min": [
+          -23.274568557739258,
+          -30.625551223754883,
+          0.0
+        ],
+        "bounds_max": [
+          25.63462257385254,
+          34.01288604736328,
+          37.6402587890625
+        ]
+      },
+      {
+        "index": 1,
+        "vertices": 3,
+        "faces": 2,
+        "watertight": true,
+        "bounds_min": [
+          -1.609431505203247,
+          12.768380165100098,
+          5.672758102416992
+        ],
+        "bounds_max": [
+          -1.5284655094146729,
+          12.805032730102539,
+          5.830598831176758
+        ]
+      }
+    ],
+    "removed_small_components": [
+      {
+        "index": 1,
+        "vertices": 3,
+        "faces": 2,
+        "watertight": true,
+        "bounds_min": [
+          -1.609431505203247,
+          12.768380165100098,
+          5.672758102416992
+        ],
+        "bounds_max": [
+          -1.5284655094146729,
+          12.805032730102539,
+          5.830598831176758
+        ]
+      }
+    ],
+    "merged_input_after_component_filter": {
+      "vertices": 105465,
+      "faces": 214234,
+      "watertight": false,
+      "winding_consistent": true,
+      "euler_number": -1649,
+      "components": 1,
+      "bounds_min": [
+        -23.274568557739258,
+        -30.625551223754883,
+        0.0
+      ],
+      "bounds_max": [
+        25.63462257385254,
+        34.01288604736328,
+        37.6402587890625
+      ],
+      "extents": [
+        48.9091911315918,
+        64.63843727111816,
+        37.6402587890625
+      ]
+    },
+    "voxel": {
+      "shape": [
+        197,
+        260,
+        152
+      ],
+      "filled_voxel_count": 458161,
+      "connected_components": 1
+    },
+    "repaired": {
+      "vertices": 288494,
+      "faces": 580716,
+      "watertight": true,
+      "winding_consistent": true,
+      "euler_number": -1864,
+      "components": 1,
+      "bounds_min": [
+        -23.375,
+        -30.875,
+        -0.125
+      ],
+      "bounds_max": [
+        25.875,
+        34.125,
+        37.875
+      ],
+      "extents": [
+        49.25,
+        65.0,
+        38.0
+      ]
+    }
+  },
+  "previous_repaired_stl": "/mnt/data/gracekeychain-repaired.stl",
+  "previous_repaired_sha256": "77fb74046fa78bc933b9e03b65b4319911bd5e732ce737f32893e1926e7321d4",
+  "previous_vs_generated": {
+    "samples_per_mesh": 5000,
+    "a_to_b_mean": 0.7179764207517263,
+    "a_to_b_max": 1.9227432894649967,
+    "b_to_a_mean": 0.727824702261347,
+    "b_to_a_max": 2.007799664238913
+  }
+}
